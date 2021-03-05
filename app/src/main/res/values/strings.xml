@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SocialApp</string>
+    <string name="profile">Profile</string>
+    <string name="posts">Posts</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anonymous">Анонимно</string>
+    <string name="authorization">Авторизация</string>
 </resources>
