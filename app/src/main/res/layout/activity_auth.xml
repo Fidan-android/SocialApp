@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".auth.AuthActivity"
-    android:background="@color/light_gray">
+    android:background="@color/white">
 
     <LinearLayout
         android:id="@+id/layout"
@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        tools:ignore="UselessParent">
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,9 +27,9 @@
 
         <com.google.android.gms.common.SignInButton
             android:id="@+id/auth_google"
-            android:layout_marginHorizontal="75dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_marginHorizontal="75dp"
+            android:layout_height="wrap_content"/>
 
         <Button
             android:id="@+id/anonymous"

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="0dp"
+    android:background="@drawable/border_post"
+    android:paddingVertical="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/info_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/round_avatar"
+            android:scaleType="centerInside"
+            android:src="@drawable/main_avatar"
+            android:contentDescription="@string/avatar" />
+
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/template_user"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_account"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <!--<TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titlePost"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/main_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="-10dp"
+            android:text="@string/template_text"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</RelativeLayout>

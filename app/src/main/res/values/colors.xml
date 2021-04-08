@@ -7,5 +7,7 @@
     <color name="blue_el1">#D7F0FF</color>
     <color name="blue_el2">#85b5f2</color>
     <color name="light_gray">#F1F1F1</color>
+    <color name="gray">#A8A7A7</color>
     <color name="blue_dark">#FF02214E</color>
+    <color name="transparent">#00000000</color>
 </resources>
